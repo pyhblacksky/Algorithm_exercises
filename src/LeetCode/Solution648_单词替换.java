@@ -1,5 +1,6 @@
 package LeetCode;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -30,12 +31,75 @@ import java.util.List;
 public class Solution648_单词替换 {
 
     /**
-     * 方法一：前缀树
+     * 方法一：前缀树      存在问题！
      * */
     public String replaceWords1(List<String> dict, String sentence) {
-        return null;
-    }
+        Trie trie = new Trie();
+        String[] strArr = sentence.split("\\s+");
+        for(int i = 0; i < strArr.length; i++){
+            trie.insert(strArr[i]);
+        }
 
+        String res = new String();
+        boolean jump = false;
+        for(int i = 0; i < strArr.length; i++){
+            jump = false;
+            for(int j = 0; j < dict.size(); j++){
+                if(trie.startWiths(dict.get(j))){
+                    res += dict.get(j) + " ";
+                    jump = true;
+                    break;
+                }
+            }
+            if(jump) continue;
+            res += strArr[i] + " ";
+        }
+
+        return res;
+    }
+    class Trie{
+        public class Node{
+            int num = 0;//计数存在问题
+            HashMap<Character, Node> next;
+            Node(){
+                next = new HashMap<>();
+            }
+        }
+
+        private Node root;
+        public Trie(){
+            root = new Node();
+        }
+
+        public void insert(String word){
+            Node cur = root;
+            for(int i = 0; i < word.length(); i++){
+                char c = word.charAt(i);
+                if(cur.next.get(c) == null){//或者!contains()
+                    cur.next.put(c, new Node());
+                }
+                cur.num++;
+                cur = cur.next.get(c);
+            }
+
+        }
+
+        public boolean startWiths(String prefix){
+            Node cur = root;
+            for(int i = 0; i < prefix.length(); i++){
+                char c = prefix.charAt(i);
+                if(cur.next.get(c) == null){
+                    return false;
+                }
+                cur = cur.next.get(c);
+            }
+            if(cur.num == 0){
+                return false;
+            }
+            cur.num--;
+            return true;
+        }
+    }
 
     /**
      * 方法二：String方法

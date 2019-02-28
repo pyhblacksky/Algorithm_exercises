@@ -2,289 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/Test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution107_二叉树的层次遍历2$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution107_二叉树的层次遍历2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution112_路径总和$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution112_路径总和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution120.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution142$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution142.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution147_对链表进行插入排序$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution147_对链表进行插入排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution148$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution148.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution27.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution50.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution53.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution69.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/Solution908.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/水题/Solution100$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/水题/Solution100.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/LeetCode/水题/Solution58.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/META-INF/Test1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution2$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution3$TreeLinkNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution3$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution5$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Solution9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/Tools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/Tools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/printListFromTailToHead$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/printListFromTailToHead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/reConstructBinaryTree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/reConstructBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/不用加减乘除做加法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/丑数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/两个栈实现队列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/两个链表的第一个公共节点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/两个链表的第一个公共节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉搜索树与双向链表$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉搜索树与双向链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉搜索树的后续遍历序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉搜索树的第k个节点$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉搜索树的第k个节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树中和为某一值的路径$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树中和为某一值的路径.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的下一个结点$TreeLinkNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的下一个结点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的深度$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的深度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的镜像$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二叉树的镜像.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/二进制中1的个数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/从1到n整数中1出现的个数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/从上往下打印二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/从上往下打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/删除链表中的重复节点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/删除链表中的重复节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/包含min函数的栈.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/反转链表$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/反转链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/和为S的连续正数序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/和为s的两个数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/复杂链表的复制$RandomListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/复杂链表的复制.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/字符串的排列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/字符流中第一个不重复的字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/孩子们的游戏.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/对称的二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/对称的二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/左旋转字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/平衡二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/平衡二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/序列化二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/序列化二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/扑克牌顺子.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/把字符串转换为整数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/把数组排成最小的数$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/把数组排成最小的数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/按之字形顺序打印二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/按之字形顺序打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数值的整数次方.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数字在排序数组中出现的次数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数据流中的中位数$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数据流中的中位数$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数据流中的中位数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数组中出现次数超过一半的数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数组中只出现一次的数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数组中的逆序对.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/数组中的重复数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/最小的k个数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/机器人的运动范围.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/构建乘积数组.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/栈的压入和弹出序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/树的子结构$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/树的子结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/正则表达式匹配.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/二维数组中的查找.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/变态跳台阶.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/合并两个排序链表$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/合并两个排序链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/斐波那契数列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/旋转数组的最小数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/替换空格.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/矩形覆盖.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/水题/跳台阶.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/求1到n的和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/滑动窗口的最大值.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/矩阵中的路径.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/第一个只出现一次的字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/翻转单词顺序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/表示数值的字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/调整数组顺序使奇数位于偶数前面.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/连续子数组的最大和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/链表中倒数第k个节点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/链表中倒数第k个节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/链表中环的入口节点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/链表中环的入口节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/剑指offer/顺时针打印矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/Other.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/其他/最长递增子序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/拼多多_2018/Child_61.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/拼多多_2018/MaxMul.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/拼多多_2018/bigDataMul.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/滴滴出行/寻找丑数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/judgeQustion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/删除重复字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/平方串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/循环数比较.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/拼凑三角形.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/爱奇艺_2018/空中旅行.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/controlList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/crazyQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/diff0_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/self_help_Yi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/彩色的砖块.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/校招真题_2018/网易_2018/等差数列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/零碎的算法题/二叉搜索树转有序的双向链表$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/零碎的算法题/二叉搜索树转有序的双向链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/零碎的算法题/双向链表排序$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/out/production/Test1/零碎的算法题/双向链表排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution107_二叉树的层次遍历2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution112_路径总和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution120_三角形最小路径和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution129_求根到叶子节点数字之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution142_环形链表2_环入口节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution144_二叉树的前序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution145_二叉树的后序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution147_对链表进行插入排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution148_排序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution15_三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution1_两数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution208_实现Trie_前缀树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution27_移除元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution50_Pow_x_n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution53_最大子序和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution590_N叉树的后序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution677_键值映射.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution69_x的平方根.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution908_最小差值1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/水题/Solution100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/水题/Solution58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Solution9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/printListFromTailToHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/reConstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/不用加减乘除做加法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/丑数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/两个栈实现队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/两个链表的第一个公共节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉搜索树与双向链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉搜索树的后续遍历序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉搜索树的第k个节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉树中和为某一值的路径.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉树的下一个结点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉树的深度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉树的镜像.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二进制中1的个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/从1到n整数中1出现的个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/从上往下打印二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/删除链表中的重复节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/包含min函数的栈.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/反转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/和为S的连续正数序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/和为s的两个数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/复杂链表的复制.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/字符串的排列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/字符流中第一个不重复的字符.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/孩子们的游戏.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/对称的二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/左旋转字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/平衡二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/序列化二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/扑克牌顺子.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/把字符串转换为整数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/把数组排成最小的数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/按之字形顺序打印二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数值的整数次方.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数字在排序数组中出现的次数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数据流中的中位数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数组中出现次数超过一半的数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数组中只出现一次的数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数组中的逆序对.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数组中的重复数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/最小的k个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/机器人的运动范围.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/构建乘积数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/栈的压入和弹出序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/树的子结构.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/正则表达式匹配.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/二维数组中的查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/变态跳台阶.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/合并两个排序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/斐波那契数列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/旋转数组的最小数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/替换空格.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/矩形覆盖.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/水题/跳台阶.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/求1到n的和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/滑动窗口的最大值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/矩阵中的路径.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/第一个只出现一次的字符.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/翻转单词顺序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/表示数值的字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/调整数组顺序使奇数位于偶数前面.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/连续子数组的最大和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/链表中倒数第k个节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/链表中环的入口节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/顺时针打印矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/数据结构/前缀树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/Other.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/其他/最长递增子序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/拼多多_2018/Child_61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/拼多多_2018/MaxMul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/拼多多_2018/bigDataMul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/滴滴出行/寻找丑数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/judgeQustion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/删除重复字符.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/平方串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/循环数比较.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/拼凑三角形.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/空中旅行.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/controlList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/crazyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/diff0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/self_help_Yi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/彩色的砖块.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/等差数列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/零碎的算法题/二叉搜索树转有序的双向链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/零碎的算法题/双向链表排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution211_添加与搜索单词_数据结构设计.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution421_数组中两个数的最大异或值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution791_自定义字符串排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -319,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/数据结构/前缀树.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="e#602#603#0" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
@@ -331,16 +53,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution590_N叉树的后序遍历.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution208_实现Trie_前缀树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution421_数组中两个数的最大异或值.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution791_自定义字符串排序.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -348,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution677_键值映射.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            <state relative-caret-position="667">
+              <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
               <folding>
                 <element signature="e#703#704#0" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -362,51 +112,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="316">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution142_环形链表2_环入口节点.java">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution211_添加与搜索单词_数据结构设计.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution50_Pow_x_n.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution69_x的平方根.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution53_最大子序和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="291">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+              <folding>
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -441,11 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/剑指offer/数据流中的中位数.java" />
-        <option value="$PROJECT_DIR$/src/剑指offer/滑动窗口的最大值.java" />
-        <option value="$PROJECT_DIR$/src/剑指offer/矩阵中的路径.java" />
-        <option value="$PROJECT_DIR$/src/剑指offer/机器人的运动范围.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/校招真题_2018/网易_2018/彩色的砖块.java" />
         <option value="$PROJECT_DIR$/src/校招真题_2018/网易_2018/diffArr.java" />
         <option value="$PROJECT_DIR$/src/校招真题_2018/网易_2018/等差数列.java" />
@@ -492,6 +223,11 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Solution208_实现Trie_前缀树.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution677_键值映射.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution648_单词替换.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution211_添加与搜索单词_数据结构设计.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution208_实现Trie_前缀树.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution421_数组中两个数的最大异或值.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution791_自定义字符串排序.java" />
       </list>
     </option>
   </component>
@@ -533,6 +269,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -543,7 +286,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551257048343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551317197103" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm exercises" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -551,7 +294,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -963,12 +706,20 @@
       <workItem from="1550816968918" duration="3459000" />
       <workItem from="1550883087003" duration="8455000" />
       <workItem from="1550987295204" duration="25256000" />
-      <workItem from="1551090556331" duration="38247000" />
+      <workItem from="1551090556331" duration="49699000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交算法练习习题">
+      <created>1551257160991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551257160991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333996000" />
+    <option name="totallyTimeSpent" value="345448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,6 +732,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2550" y="-145" width="1352" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1576507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1100,27 +852,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/拼多多_2018/Child_61.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/拼多多_2018/MaxMul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/judgeQustion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/网易_2018/controlList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1369,16 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution590_N叉树的后序遍历.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution148_排序链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2075">
@@ -1458,7 +1179,7 @@
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/数据结构/前缀树.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="e#602#603#0" expanded="true" />
             <element signature="e#654#655#0" expanded="true" />
@@ -1468,23 +1189,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution208_实现Trie_前缀树.java">
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution590_N叉树的后序遍历.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="117">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution677_键值映射.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        <state relative-caret-position="667">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
           <folding>
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -1496,14 +1228,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution648_单词替换.java">
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution211_添加与搜索单词_数据结构设计.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="291">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution208_实现Trie_前缀树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution421_数组中两个数的最大异或值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution791_自定义字符串排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
