@@ -99,4 +99,31 @@ public class Solution704_二分查找 {
         return -1;
     }
 
+    /**
+     * 二分查找模板3
+     * 搜索条件需要访问元素的直接左右邻居。
+     * 保证查找空间在每个步骤中至少有 3 个元素。
+     * 需要进行后处理。 当剩下 2 个元素时，循环 / 递归结束。 需要评估其余元素是否符合条件。
+     *  用于搜索需要访问当前索引及其在数组中的直接左右邻居索引的元素或条件。
+     * */
+    public int binarySearch3(int[] nums, int target){
+        if(nums == null || nums.length == 0){
+            return -1;
+        }
+
+        int start = 0;
+        int end = nums.length - 1;
+        while(start + 1 < end){
+            int mid = start + (end - start) / 2;
+            if(nums[mid] == target){return mid;}
+            else if(nums[mid] > target){end = mid;}
+            else{start = mid;}
+        }
+
+        //最后剩下两个元素   start + 1 = end
+        if(nums[start] == target){return start;}
+        if(nums[end] == target){return end;}
+        return -1;
+    }
+
 }
