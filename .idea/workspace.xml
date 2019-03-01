@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="176" column="5" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="176" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,19 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
               <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution33_搜索旋转数组.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding>
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/校招真题_2018/滴滴出行/寻找丑数.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution142.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution27.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution1.java" />
@@ -191,6 +186,7 @@
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/TopSort.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java" />
       </list>
     </option>
   </component>
@@ -242,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551438110449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551441403835" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm exercises" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -269,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kruskal">
+  <component name="RunManager" selected="Application.Prim">
     <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="图相关算法.Kruskal" />
       <module name="Test1" />
@@ -283,9 +279,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="图相关算法.Prim" />
       <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="图相关算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -617,11 +619,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prim" />
         <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.TopSort" />
         <item itemvalue="Application.Solution559_N叉树的最大深度" />
         <item itemvalue="Application.图数据结构的遍历_BFS_DFS" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +658,7 @@
       <workItem from="1550816968918" duration="3459000" />
       <workItem from="1550883087003" duration="8455000" />
       <workItem from="1550987295204" duration="25256000" />
-      <workItem from="1551090556331" duration="82132000" />
+      <workItem from="1551090556331" duration="84720000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -707,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551428938727</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Kruskal最小生成树算法">
+      <created>1551438743898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551438743898</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377881000" />
+    <option name="totallyTimeSpent" value="380469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +735,7 @@
     <frame x="-2562" y="-148" width="1352" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25888717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25888717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -737,7 +746,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30957943" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37032712" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37032712" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
@@ -772,7 +781,8 @@
     <MESSAGE value="Floyd算法" />
     <MESSAGE value="新增拓扑排序" />
     <MESSAGE value="debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug" />
+    <MESSAGE value="Kruskal最小生成树算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kruskal最小生成树算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -837,12 +847,6 @@
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java</url>
-          <line>144</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -856,13 +860,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/平方串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/其他/最长递增子序列.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -1270,8 +1267,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="176" column="5" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="176" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
         </state>
       </provider>
     </entry>
