@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +71,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="400">
+              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Dijkstra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -97,20 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/水题/Solution278_第一个错误的版本.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="314">
+              <caret line="106" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -124,6 +125,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prev</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -136,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution142.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution27.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution1.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution15.java" />
@@ -183,10 +188,11 @@
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution104_二叉树的最大深度.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution111_二叉树的最小深度.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution559_N叉树的最大深度.java" />
-        <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/TopSort.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Kruskal.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Dijkstra.java" />
       </list>
     </option>
   </component>
@@ -238,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551441403835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551447320640" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm exercises" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,7 +271,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prim">
+  <component name="RunManager" selected="Application.Floyd">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="图相关算法.Dijkstra" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="图相关算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Floyd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="图相关算法.Floyd" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="图相关算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="图相关算法.Kruskal" />
       <module name="Test1" />
@@ -285,19 +317,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="图相关算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution559_N叉树的最大深度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution559_N叉树的最大深度" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -604,26 +623,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="图数据结构的遍历_BFS_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="图相关算法.图数据结构的遍历_BFS_DFS" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="图相关算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Floyd" />
+        <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.Prim" />
         <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.TopSort" />
-        <item itemvalue="Application.Solution559_N叉树的最大深度" />
-        <item itemvalue="Application.图数据结构的遍历_BFS_DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +664,7 @@
       <workItem from="1550816968918" duration="3459000" />
       <workItem from="1550883087003" duration="8455000" />
       <workItem from="1550987295204" duration="25256000" />
-      <workItem from="1551090556331" duration="84720000" />
+      <workItem from="1551090556331" duration="89681000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -716,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551438743898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Prim最小生成树算法">
+      <created>1551441424320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551441424320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380469000" />
+    <option name="totallyTimeSpent" value="385430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -733,7 +746,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2562" y="-148" width="1352" height="988" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25888717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -745,8 +757,8 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30957943" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37032712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30957943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37032712" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
@@ -782,7 +794,8 @@
     <MESSAGE value="新增拓扑排序" />
     <MESSAGE value="debug" />
     <MESSAGE value="Kruskal最小生成树算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kruskal最小生成树算法" />
+    <MESSAGE value="Prim最小生成树算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prim最小生成树算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,16 +873,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/其他/最长递增子序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1248,13 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/TopSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1274,8 +1270,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Prim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        <state relative-caret-position="314">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Floyd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/图相关算法/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
