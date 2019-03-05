@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution198_打家劫舍.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution213_打家劫舍2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution303_区域和检索_数组不可变.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution416_分割等和子集.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution746_使用最小花费爬楼梯.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution96_不同的二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LintCode/Solution13_字符串查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU1171_BigEventInHDU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2546_饭卡.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2602_BoneCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2639_BoneCollector2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU3466_ProudMerchants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/合唱团.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/放苹果.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm exercises/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,41 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution416_分割等和子集.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-              <folding>
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution198_打家劫舍.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution303_区域和检索_数组不可变.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="239">
               <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution746_使用最小花费爬楼梯.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -77,47 +46,84 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution96_不同的二叉搜索树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/数组中的重复数字.java">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/放苹果.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="241">
+              <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+              <folding>
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/校招真题_2018/爱奇艺_2018/删除重复字符.java">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/合唱团.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/水题/Solution100.java">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2546_饭卡.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="766">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/水题/Solution58.java">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU1171_BigEventInHDU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-278">
+              <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2602_BoneCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-609">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2639_BoneCollector2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU3466_ProudMerchants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -148,13 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/水题/Solution58.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/水题/Solution100.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution908.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution69.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution148.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution147_对链表进行插入排序.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution107_二叉树的层次遍历2.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution112_路径总和.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution129_求根到叶子节点数字之和.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution144_二叉树的前序遍历.java" />
@@ -199,14 +198,19 @@
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution746_使用最小花费爬楼梯.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution213_打家劫舍2.java" />
         <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution96_不同的二叉搜索树.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/放苹果.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/合唱团.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2546_饭卡.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU1171_BigEventInHDU.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2602_BoneCollector.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2639_BoneCollector2.java" />
+        <option value="$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU3466_ProudMerchants.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2563" />
-    <option name="y" value="-145" />
-    <option name="width" value="1690" />
-    <option name="height" value="1235" />
+    <option name="width" value="1038" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,6 +242,13 @@
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HDU_OJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,13 +258,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="动态规划" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551612899025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551705900462" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm exercises" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,13 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution416_分割等和子集">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="图相关算法.Dijkstra" />
+  <component name="RunManager" selected="Application.HDU3466_ProudMerchants">
+    <configuration name="HDU1171_BigEventInHDU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HDU_OJ.HDU1171_BigEventInHDU" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="图相关算法.*" />
+          <option name="PATTERN" value="HDU_OJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Floyd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="图相关算法.Floyd" />
+    <configuration name="HDU2546_饭卡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HDU_OJ.HDU2546_饭卡" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="图相关算法.*" />
+          <option name="PATTERN" value="HDU_OJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="图相关算法.Kruskal" />
+    <configuration name="HDU2602_BoneCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HDU_OJ.HDU2602_BoneCollector" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="图相关算法.*" />
+          <option name="PATTERN" value="HDU_OJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="图相关算法.Prim" />
+    <configuration name="HDU2639_BoneCollector2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HDU_OJ.HDU2639_BoneCollector2" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="图相关算法.*" />
+          <option name="PATTERN" value="HDU_OJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution416_分割等和子集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.动态规划.Solution416_分割等和子集" />
+    <configuration name="HDU3466_ProudMerchants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HDU_OJ.HDU3466_ProudMerchants" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.动态规划.*" />
+          <option name="PATTERN" value="HDU_OJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -653,11 +657,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution416_分割等和子集" />
-        <item itemvalue="Application.Floyd" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.Prim" />
-        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.HDU3466_ProudMerchants" />
+        <item itemvalue="Application.HDU2639_BoneCollector2" />
+        <item itemvalue="Application.HDU2602_BoneCollector" />
+        <item itemvalue="Application.HDU1171_BigEventInHDU" />
+        <item itemvalue="Application.HDU2546_饭卡" />
       </list>
     </recent_temporary>
   </component>
@@ -692,7 +696,7 @@
       <workItem from="1550816968918" duration="3459000" />
       <workItem from="1550883087003" duration="8455000" />
       <workItem from="1550987295204" duration="25256000" />
-      <workItem from="1551090556331" duration="115808000" />
+      <workItem from="1551090556331" duration="138342000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -764,11 +768,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551490056703</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="动态规划相应题目">
+      <created>1551612965638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551612965638</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411557000" />
+    <option name="totallyTimeSpent" value="434091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,10 +791,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2562" y="-148" width="1352" height="988" extended-state="0" />
+    <frame x="-6" y="0" width="830" height="581" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25888717" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2784974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -794,7 +805,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30957943" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37032712" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.7060134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
@@ -803,7 +814,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295711" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286432" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827103" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -832,7 +843,8 @@
     <MESSAGE value="Kruskal最小生成树算法" />
     <MESSAGE value="Prim最小生成树算法" />
     <MESSAGE value="Dijkstra最短路径算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra最短路径算法" />
+    <MESSAGE value="动态规划相应题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划相应题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,73 +922,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/剑指offer/二叉树的深度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="34" selection-start-line="34" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution107_二叉树的层次遍历2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution112_路径总和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution129_求根到叶子节点数字之和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution144_二叉树的前序遍历.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution145_二叉树的后序遍历.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution148_排序链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution908_最小差值1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/Solution120_三角形最小路径和.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -1302,13 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution303_区域和检索_数组不可变.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution746_使用最小花费爬楼梯.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1332,8 +1270,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution96_不同的二叉搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/Solution303_区域和检索_数组不可变.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/放苹果.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/LeetCode/动态规划/合唱团.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2546_饭卡.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU1171_BigEventInHDU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2602_BoneCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU2639_BoneCollector2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm exercises/src/HDU_OJ/HDU3466_ProudMerchants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
         </state>
       </provider>
     </entry>
