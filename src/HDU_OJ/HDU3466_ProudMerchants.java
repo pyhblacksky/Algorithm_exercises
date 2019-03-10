@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @Author: pyh
  * @Date: 2019/3/4 21:02
  * @Version 1.0
- * @Function:
+ * @Function:       动态规划相关题目
  *
  * 问题描述
  * 最近，iSea去了一个古老的国家。在这么长的时间里，它是世界上最富裕，最强大的王国。

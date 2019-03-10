@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @Author: pyh
  * @Date: 2019/3/4 16:42
  * @Version 1.0
- * @Function:
+ * @Function:       动态规划相关题目
  *
  * 今天我们不希望骨头的最大值，但是K的最大值bones.NOTICE，我们考虑两种获得相同骨骼值的方法是相同的。
  * 这意味着，它将是从第1个最大值，第2个最大值到第K个最大值的严格递减序列。

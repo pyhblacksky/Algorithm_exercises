@@ -73,4 +73,37 @@ public class Solution15_三数之和 {
         return right;
     }
 
+    //方法二：排序后，使用双指针，复杂度O(N^2)
+    //计算三数之和为0的个数，数组有无重复元素均可
+    public int count(int[] nums){
+        if(nums == null || nums.length <= 2){
+            return 0;
+        }
+        int N = nums.length;
+        int cnt = 0;
+        for(int i = 0; i < N - 2; i++){
+            int left = i+1;
+            int right = N - 1;
+            int target = -nums[i];
+            if(i > 0 && nums[i] == nums[i-1]){continue;}//相等元素，跳过
+            while(left < right){
+                int sum = nums[left] + nums[right];
+                if(sum == target){
+                    cnt++;
+                    //去重
+                    while(left < right && nums[left] == nums[left+1]) left++;
+                    while(left < right && nums[right] == nums[right-1]) right--;
+                    left++;
+                    right--;
+                } else if(sum > target){
+                    right--;
+                } else{
+                    left++;
+                }
+            }
+        }
+
+        return cnt;
+    }
+
 }

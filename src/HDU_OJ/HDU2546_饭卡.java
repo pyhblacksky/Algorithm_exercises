@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @Author: pyh
  * @Date: 2019/3/4 11:11
  * @Version 1.0
- * @Function:       HDU2546
+ * @Function:       HDU2546 动态规划相关题目
  *
  * Problem Description
  * 电子科大本部食堂的饭卡有一种很诡异的设计，即在购买之前判断余额。如果购买一个商品之前，卡上的剩余金额大于或等于5元，就一定可以购买成功（即使购买后卡上余额为负），否则无法购买（即使金额足够）。所以大家都希望尽量使卡上的余额最少。

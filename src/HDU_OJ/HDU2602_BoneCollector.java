@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @Author: pyh
  * @Date: 2019/3/4 15:59
  * @Version 1.0
- * @Function:
+ * @Function:   动态规划相关题目
  *
  * 问题描述
  * 许多年前，在泰迪的家乡，有一个人被称为“骨头收藏家”。
