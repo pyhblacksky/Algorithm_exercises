@@ -78,6 +78,11 @@ public class Dijkstra {
         for(int i = 0; i < mVexs.length; i++){
             System.out.println("Shortest " + mVexs[vs] + ", " + mVexs[i] + " = " + dist[i]);
         }
+        System.out.println("最短路：");
+        for(int i = 0; i < prev.length; i++){
+            System.out.print(prev[i] + " ");
+        }
+        System.out.println();
         System.out.println();
     }
 
