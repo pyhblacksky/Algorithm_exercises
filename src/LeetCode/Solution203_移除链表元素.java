@@ -38,7 +38,15 @@ public class Solution203_移除链表元素 {
         return newHead.next;
     }
 
-    //在原数组
+    //在原数组上进行修改,递归的方法
+    public ListNode removeElements1(ListNode head, int val) {
+        if(head == null){
+            return head;
+        }
+
+        head.next = removeElements1(head.next, val);
+        return head.val == val ? head.next : head;
+    }
 
     public class ListNode {
         int val;
