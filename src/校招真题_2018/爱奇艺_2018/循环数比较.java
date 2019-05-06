@@ -15,6 +15,11 @@ import java.util.Scanner;
  * 输出描述:
  * 如果v1小于v2输出"Less",v1等于v2输出"Equal",v1大于v2输出"Greater".
  *
+ * 输入
+ * 1010 3 101010 2
+ *
+ * 输出
+ * Equal
  */
 public class 循环数比较 {
 
@@ -41,6 +46,11 @@ public class 循环数比较 {
     private static int judge(int x1, int k1, int x2, int k2){
         String str1 = String.valueOf(x1);
         String str2 = String.valueOf(x2);
+
+        if((str1 == null && str2 == null) || (str1.length() == 0 && str2.length() == 0)){
+            return 0;
+        }
+
         int res = 0;
         if(str1.length()*k1 < str2.length()*k2){
             return -1;
