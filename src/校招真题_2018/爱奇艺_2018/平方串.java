@@ -25,39 +25,58 @@ public class 平方串 {
             System.out.println(res);
         }
         scan.close();
+
     }
 
     private static int countLen(String str){
+        //从任意点将字符串切开，求这两部分的最长公共子序列
         if(str == null || str.length() == 0){
             return 0;
         }
+        if(str.length() == 1){
+            return 1;
+        }
 
-        int count = 0;
+        int res = 1;//默认单字符
+        for(int i = 0; i < str.length(); i++){
+            String s1 = str.substring(0,i);
+            String s2 = str.substring(i);
+            res = Math.max(res, getLCS(s1, s2)*2);
+        }
 
-        //区分奇数偶数
-        if(str.length() % 2 == 0){
-            String str1 = str.substring(0, str.length()/2);
-            String str2 = str.substring(str.length()/2);
-            for(int i = 0; i < str1.length(); i++){
-                for(int j = i; j < str2.length(); j++){
-                    if(str1.charAt(i) == str2.charAt(j)){
-                        count++;
-                        break;
-                    }
-                }
-            }
-        } else {
-            String str1 = str.substring(0, str.length()/2);
-            String str2 = str.substring(str.length()/2+1);
-            for(int i = 0; i < str1.length(); i++){
-                for(int j = i; j < str2.length(); j++){
-                    if(str1.charAt(i) == str2.charAt(j)){
-                        count++;
-                        break;
-                    }
+        return res;
+    }
+
+    //获取最长公共子序列长度
+    static int getLCS(String s1, String s2){
+        if(s1 == null || s1.length() == 0 || s2 == null || s2.length() == 0){
+            return 0;
+        }
+
+        char[] ch1 = s1.toCharArray();
+        char[] ch2 = s2.toCharArray();
+        int n1 = ch1.length;
+        int n2 = ch2.length;
+        int[][] dp = new int[n1][n2];
+        dp[0][0] = ch1[0] == ch2[0] ? 1 : 0;
+
+        for(int i = 1; i < n1; i++){
+            dp[i][0] = Math.max(dp[i-1][0], ch1[i] == ch2[0] ? 1 : 0);
+        }
+        for(int i = 1; i < n2; i++){
+            dp[0][i] = Math.max(dp[0][i-1], ch1[0] == ch2[i] ? 1 : 0);
+        }
+
+        for(int i = 1; i < n1; i++){
+            for(int j = 1; j < n2; j++){
+                dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+                if(ch1[i] == ch2[j]){
+                    dp[i][j] = Math.max(dp[i][j], dp[i-1][j-1] + 1);
                 }
             }
         }
-        return (str.length()/2 - count) * 2;
+
+        //通过dp求出
+        return dp[n1-1][n2-1];
     }
 }
