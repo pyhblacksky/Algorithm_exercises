@@ -32,12 +32,12 @@ public class 回文 {
     public static void main(String[] args){
         Scanner cin = new Scanner(System.in);
         String str = cin.nextLine();
-        String res = getPalindrome(str);
+        int res = getMinLenTail(str);
         System.out.println(res);
-        //此处只要求长度
-        int[][] dp = getDp(str.toCharArray());
-        System.out.println(str.length() + dp[0][str.length()-1]);
     }
+
+    /*********************************************************************************/
+    //以下方法是在前后都可以加字符串来构成一个最短回文串
 
     //使用dp的方法，根据dp矩阵还原完整字符串
     static String getPalindrome(String str){
@@ -67,7 +67,7 @@ public class 回文 {
         return String.valueOf(res);
     }
 
-    //获取dp矩阵,dp[i][j]的值代表子串str[i..j]最少添加几个字符可以使str[i..j]整体都是回文串,,注意只能在末尾加
+    //获取dp矩阵,dp[i][j]的值代表子串str[i..j]最少添加几个字符可以使str[i..j]整体都是回文串
     static int[][] getDp(char[] str){
         int[][] dp = new int[str.length][str.length];
         for(int j = 1; j < str.length; j++){
@@ -76,11 +76,41 @@ public class 回文 {
                 if(str[i] == str[j]){
                     dp[i][j] = dp[i+1][j-1];
                 } else{
-                    dp[i][j] = Math.min(dp[i+1][j], dp[i][j-1]) + 1;
+                    dp[i][j] = Math.max(dp[i+1][j],dp[i][j-1]) + 1;
                 }
             }
         }
         return dp;//dp[0][N-1]代表整个字符串最少需要添加几个字符
+    }
+
+    /*******************************************************************************/
+
+    //以下是只能在尾部加，构成最短回文串
+    static int getMinLenTail(String str){
+        if(str == null){
+            return 0;
+        }
+        if(str.length() <= 1){
+            return str.length();
+        }
+
+        char[] arr = str.toCharArray();
+        int n = arr.length;
+        for(int i = 0; i < n; i++){
+            if(isPalindrome(arr, i, n-1)){
+                return n + i;
+            }
+        }
+        return 0;
+    }
+
+    static boolean isPalindrome(char[] arr, int i, int j){
+        while(i <= j){
+            if(arr[i++] != arr[j--]){
+                return false;
+            }
+        }
+        return true;
     }
 
 }
