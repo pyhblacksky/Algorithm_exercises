@@ -36,7 +36,7 @@ public class test2 {
                 int d = sc.nextInt();
                 int e = sc.nextInt();
                 int f = sc.nextInt();
-                count = res[e][f] - res[c-1][f] - res[e][d-1] + res[c-1][d-1];
+                count = res[e][f] - res[c-1][f] - res[e][d-1] + res[c-1][d-1];//边界上的点，向外扩一个单位
                 System.out.println(count);
             }
         }

@@ -136,7 +136,7 @@ public class AlicesBigSet {
 
         long[][] base = {{1,1},{1,0}};
         long[][] res = matrixPower(base, k+2);
-        long result = a * res[0][0] + b * res[1][0] - a;
+        long result = a * res[0][0] + b * res[1][0] - a;    //斐波那契数列数列前n项和 Sn = F(n+2)  - F(2)
         return arr.length > 2 ? result + sum : result;
     }
 
