@@ -40,7 +40,7 @@ public class 高度检察器 {
         int cnt = 0;
         int[] temp = heights.clone();
         Arrays.sort(temp);
-        for(int i = 1; i < heights.length; i++){
+        for(int i = 0; i < heights.length; i++){
             if(temp[i] != heights[i]){
                 cnt++;
             }
