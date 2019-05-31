@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="日常刷题">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution11_盛最多水的容器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution371_两整数之和_不用加减.java" afterDir="false" />
+    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution279_完全平方数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution328_奇偶链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution454_四数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution49_字母异位词分组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution75_颜色分类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution87_柱状图中最大的矩形.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,66 +48,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution34_在排序数组中查找元素的第一个和最后一个位置.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/二分.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution124_二叉树中的最大路径和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution54_螺旋矩阵.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution171_Excel表列序号.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution287_寻找重复数.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution42_接雨水.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="650">
@@ -121,11 +65,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution371_两整数之和_不用加减.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="550">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution75_颜色分类.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution328_奇偶链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution454_四数相加.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution49_字母异位词分组.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution279_完全平方数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution87_柱状图中最大的矩形.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -166,12 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ACM/Lost_in_Translation.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/最后一块石头的重量.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/最长字符串链.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/最后一块石头的重量2.java" />
-        <option value="$PROJECT_DIR$/src/ACM/邀请赛/AlNumber.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/ACM/邀请赛/AlicesBigSet.java" />
         <option value="$PROJECT_DIR$/src/牛客竞赛OJ/牛客练习赛_46/华华教奕奕写几何.java" />
         <option value="$PROJECT_DIR$/src/牛客竞赛OJ/牛客练习赛_46/华华送奕奕小礼物.java" />
@@ -217,6 +209,12 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Solution287_寻找重复数.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution11_盛最多水的容器.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution371_两整数之和_不用加减.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution75_颜色分类.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution328_奇偶链表.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution454_四数相加.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution49_字母异位词分组.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution279_完全平方数.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution87_柱状图中最大的矩形.java" />
       </list>
     </option>
   </component>
@@ -311,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution114_二叉树展开为链表">
+  <component name="RunManager" selected="Application.Solution279_完全平方数">
     <configuration name="距离相等的条形码" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeRace.Contest138.距离相等的条形码" />
       <module name="Test1" />
@@ -327,6 +325,19 @@
     </configuration>
     <configuration name="Solution114_二叉树展开为链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Solution114_二叉树展开为链表" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution279_完全平方数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution279_完全平方数" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -808,6 +819,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution279_完全平方数" />
         <item itemvalue="Application.Solution114_二叉树展开为链表" />
         <item itemvalue="Application.距离相等的条形码" />
         <item itemvalue="Application.Solution300_最长上升子序列" />
@@ -871,7 +883,7 @@
       <workItem from="1558570387100" duration="40744000" />
       <workItem from="1558857140575" duration="36070000" />
       <workItem from="1559002896317" duration="5893000" />
-      <workItem from="1559053264635" duration="34176000" />
+      <workItem from="1559053264635" duration="46993000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -1097,11 +1109,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559051942933</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="日常刷题">
+      <created>1559087948642</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559087948642</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="972401000" />
+    <option name="totallyTimeSpent" value="985218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1113,10 +1132,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="7" width="1420" height="1407" extended-state="0" />
+    <frame x="4" y="7" width="1420" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3139706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3139706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1127,15 +1146,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4970545" weight="0.3283582" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40661764" weight="0.30793402" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44191176" weight="0.34406912" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44117647" visible="true" weight="0.34406912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49485293" visible="true" weight="0.32914376" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49485293" weight="0.32914376" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49926472" weight="0.32914376" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50514704" side_tool="true" visible="true" weight="0.32914376" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5588235" side_tool="true" visible="true" weight="0.34406912" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4875" weight="0.32757267" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
@@ -1308,60 +1327,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ACM/Removal_Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution238_除自身以外数组的乘积.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution655_输出二叉树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution957_N天后的牢房.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution886_可能的二分法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/华为机试/字符串最后一个单词的长度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/华为机试/计算字符个数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1713,8 +1678,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution371_两整数之和_不用加减.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution75_颜色分类.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution328_奇偶链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution454_四数相加.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution49_字母异位词分组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution279_完全平方数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution87_柱状图中最大的矩形.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
         </state>
       </provider>
     </entry>
