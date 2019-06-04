@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution179_最大数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution226_翻转二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution347_前k个高频元素.java" afterDir="false" />
+    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="日常刷题">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution162_寻找峰值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution315_计算右侧小于当前元素的个数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,15 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution75_颜色分类.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution328_奇偶链表.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution179_最大数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="1600">
               <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="74" selection-end-column="45" />
             </state>
           </provider>
@@ -111,16 +101,28 @@
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution347_前k个高频元素.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1175">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution226_翻转二叉树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution226_翻转二叉树.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution315_计算右侧小于当前元素的个数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="1575">
+              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/牛客竞赛OJ/快速幂/分元宵.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution238_除自身以外数组的乘积.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution655_输出二叉树.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution957_N天后的牢房.java" />
@@ -212,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Solution179_最大数.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution347_前k个高频元素.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution226_翻转二叉树.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution315_计算右侧小于当前元素的个数.java" />
       </list>
     </option>
   </component>
@@ -227,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,8 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution179_最大数">
+  <component name="RunManager" selected="Application.Solution315_计算右侧小于当前元素的个数">
     <configuration name="距离相等的条形码" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeRace.Contest138.距离相等的条形码" />
       <module name="Test1" />
@@ -359,8 +361,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution300_最长上升子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution300_最长上升子序列" />
+    <configuration name="Solution315_计算右侧小于当前元素的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution315_计算右侧小于当前元素的个数" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -372,8 +374,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="不用加减乘除做加法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.不用加减乘除做加法" />
+    <configuration name="排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.排序" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="斐波那契数列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.斐波那契数列" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.水题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="并查集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.并查集" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="删除重复字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.删除重复字符" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.第一个只出现一次的字符" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -385,12 +452,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="构建乘积数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.构建乘积数组" />
+    <configuration name="华华送奕奕小礼物" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客竞赛OJ.牛客练习赛_46.华华送奕奕小礼物" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
+          <option name="PATTERN" value="牛客竞赛OJ.牛客练习赛_46.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,6 +504,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为机试.进制转换" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="华为机试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="校招真题_2018.其他.最长递增子序列" />
       <module name="Test1" />
@@ -476,25 +556,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="变态跳台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.变态跳台阶" />
+    <configuration name="计算字符个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为机试.计算字符个数" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指offer.水题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="华华送奕奕小礼物" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客竞赛OJ.牛客练习赛_46.华华送奕奕小礼物" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客竞赛OJ.牛客练习赛_46.*" />
+          <option name="PATTERN" value="华为机试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -580,8 +647,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="并查集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.并查集" />
+    <configuration name="唯一分解定理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.唯一分解定理" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -593,12 +660,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="计算字符个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="华为机试.计算字符个数" />
+    <configuration name="不用加减乘除做加法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.不用加减乘除做加法" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="华为机试.*" />
+          <option name="PATTERN" value="剑指offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -671,25 +738,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="华为机试.进制转换" />
+    <configuration name="变态跳台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.变态跳台阶" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="华为机试.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="唯一分解定理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.唯一分解定理" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="PATTERN" value="剑指offer.水题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -736,6 +790,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="构建乘积数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.构建乘积数组" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="爱生气的书店老板" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeRace.Contest138.爱生气的书店老板" />
       <module name="Test1" />
@@ -749,78 +816,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.排序" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="斐波那契数列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.斐波那契数列" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.水题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="删除重复字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.删除重复字符" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.第一个只出现一次的字符" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution315_计算右侧小于当前元素的个数" />
         <item itemvalue="Application.Solution179_最大数" />
         <item itemvalue="Application.Solution279_完全平方数" />
         <item itemvalue="Application.Solution114_二叉树展开为链表" />
         <item itemvalue="Application.距离相等的条形码" />
-        <item itemvalue="Application.Solution300_最长上升子序列" />
       </list>
     </recent_temporary>
   </component>
@@ -881,7 +883,11 @@
       <workItem from="1558857140575" duration="36070000" />
       <workItem from="1559002896317" duration="5893000" />
       <workItem from="1559053264635" duration="47489000" />
-      <workItem from="1559264544584" duration="5337000" />
+      <workItem from="1559264544584" duration="5467000" />
+      <workItem from="1559527834282" duration="5368000" />
+      <workItem from="1559545557013" duration="1198000" />
+      <workItem from="1559605807540" duration="474000" />
+      <workItem from="1559606301508" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -1121,11 +1127,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559262054058</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="日常刷题">
+      <created>1559270561342</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1559270561342</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="991051000" />
+    <option name="totallyTimeSpent" value="998974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,9 +1151,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="7" width="1420" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31838235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3389706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1150,8 +1162,8 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4970545" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40661764" weight="0.30793402" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4404412" visible="true" weight="0.34406912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40588236" weight="0.30793402" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.43970588" visible="true" weight="0.34406912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
@@ -1159,7 +1171,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49485293" weight="0.32914376" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49926472" weight="0.32914376" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5595588" side_tool="true" visible="true" weight="0.34406912" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5602941" side_tool="true" visible="true" weight="0.34406912" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4875" weight="0.32757267" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
@@ -1332,13 +1344,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution80_删除排序数组中的重复项2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客竞赛OJ/快速幂/分元宵.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -1702,16 +1707,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指offer/不用加减乘除做加法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution179_最大数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="1600">
           <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="74" selection-end-column="45" />
         </state>
       </provider>
@@ -1719,14 +1717,31 @@
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution347_前k个高频元素.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution226_翻转二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="950">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指offer/不用加减乘除做加法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution315_计算右侧小于当前元素的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
