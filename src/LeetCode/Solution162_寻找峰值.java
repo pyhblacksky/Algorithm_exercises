@@ -28,11 +28,31 @@ package LeetCode;
  */
 public class Solution162_寻找峰值 {
 
+    /**
+     * 首先要注意题目条件，在题目描述中出现了nums[-1] = nums[n] = -∞，
+     *      这就代表着只要数组中存在一个元素比相邻元素大，那么沿着它一定可以找到一个峰值
+     * 根据上述结论，我们就可以使用二分查找找到峰值
+     * 查找时，左指针l，右指针r，以其保持左右顺序为循环条件
+     * 根据左右指针计算中间位置m，并比较m与m+1的值，如果m较大，
+     *      则左侧存在峰值，r=m，如果m+1较大，则右侧存在峰值，l=m+1
+     * */
     public int findPeakElement(int[] nums) {
         //二分
         if(nums == null || nums.length == 0){
             return -1;
         }
+
+        int left = 0;
+        int right = nums.length - 1;
+        while(left < right){
+            int mid = left + (right - left) / 2;
+            if(nums[mid] > nums[mid+1]){
+                right = mid;//左侧存在峰值
+            } else{
+                left = mid + 1;//右侧存在峰值
+            }
+        }
+        return left;
     }
 
 }
