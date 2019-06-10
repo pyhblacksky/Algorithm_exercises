@@ -1,6 +1,8 @@
 package LeetCodeRace.Contest140;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 /**
  * @Author: pyh
@@ -30,10 +32,35 @@ import java.util.HashSet;
  */
 public class 活字印刷 {
 
-    //排列+组合
-
+    //优化方法
     public int numTilePossibilities(String tiles) {
+        if(tiles == null || tiles.length() == 0){
+            return 0;
+        }
+        Map<Character, Integer> map = new HashMap<>();
+        for(int i = 0; i < tiles.length(); i++){
+            char c = tiles.charAt(i);
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        return help(map)-1;
+    }
+    private int help(Map<Character, Integer> map){
+        int res = 1;
+        for(char c : map.keySet()){
+            if(map.get(c) == 0){
+                continue;
+            }
+            map.put(c, map.get(c) - 1);
+            res += help(map);
+            map.put(c, map.get(c) + 1);
+        }
+        return res;
+    }
 
+
+    /********************************************************************/
+    //排列+组合   方法2
+    public int numTilePossibilities1(String tiles) {
         HashSet<String> set = new HashSet<>();
         char[] chs = tiles.toCharArray();
         for(int i = 0; i <= tiles.length(); i++)

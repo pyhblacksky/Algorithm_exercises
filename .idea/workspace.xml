@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Test.java" line="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/Bigram分词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/根到叶路径上的不足节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,20 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1257">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="857">
+              <caret line="60" column="74" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +59,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/根到叶路径上的不足节点.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="73" column="5" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="485">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <element signature="e#1232#1233#0" expanded="true" />
                 <element signature="e#1263#1264#0" expanded="true" />
@@ -97,6 +99,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution114_二叉树展开为链表.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1716">
@@ -113,15 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/Dijstra最短路.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution547_朋友圈.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution343_整数拆分.java" />
         <option value="$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/素数筛法.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution200_岛屿的数量.java" />
@@ -218,10 +225,11 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Solution395_至少有K个重复字符的最长子串.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution103_二叉树的锯齿形遍历.java" />
         <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/Bigram分词.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java" />
         <option value="$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/组合算法.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java" />
         <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/根到叶路径上的不足节点.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java" />
+        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java" />
       </list>
     </option>
   </component>
@@ -930,7 +938,7 @@
       <workItem from="1559693922039" duration="4450000" />
       <workItem from="1559778950069" duration="758000" />
       <workItem from="1559780370755" duration="249000" />
-      <workItem from="1559808109146" duration="18513000" />
+      <workItem from="1559808109146" duration="26356000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -1191,11 +1199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559960869190</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="leetcode140周赛...">
+      <created>1560065595804</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1560065595804</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1019058000" />
+    <option name="totallyTimeSpent" value="1026901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,8 +1235,8 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4970545" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40220588" weight="0.30714846" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4404412" visible="true" weight="0.34406912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40220588" visible="true" weight="0.30714846" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4404412" weight="0.34406912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
@@ -1349,7 +1364,8 @@
     <MESSAGE value="两道AC" />
     <MESSAGE value="日常刷刷" />
     <MESSAGE value="日常刷题" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常刷题" />
+    <MESSAGE value="leetcode140周赛..." />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode140周赛..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1438,13 +1454,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest138/高度检察器.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution429_N叉树的层次遍历.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -1778,17 +1787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/根到叶路径上的不足节点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/Bigram分词.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1796,17 +1794,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1257">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/不同字符的最小子序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="427">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/根到叶路径上的不足节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding>
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/Contest140/活字印刷.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="60" column="74" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
