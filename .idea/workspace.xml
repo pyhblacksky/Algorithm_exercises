@@ -4,13 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/Test.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/校招笔试2020/tplink/乱序数组中找和为x的两个元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/校招笔试2020/tplink/找出最多的访问记录.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/校招笔试2020/tplink/整数的平方根.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/校招笔试2020/tplink/矩阵相交比相并面积.java" afterDir="false" />
+    <list default="true" id="1ef9ba93-293e-49d0-9bfc-da5fd4d4e6c9" name="Default Changelist" comment="日常刷题">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution160_相交链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution210_课程表2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Solution695_岛屿的最大面积.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCodeRace/复写0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,34 +49,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/相关算法及相应的练习题.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/矩阵相交比相并面积.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/整数的平方根.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -87,13 +58,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/乱序数组中找和为x的两个元素.java">
+        <entry file="jar://F:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="8825">
+              <caret line="395" column="48" selection-start-line="395" selection-start-column="48" selection-end-line="395" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/排序.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6150">
+              <caret line="246" column="24" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/剑指offer/孩子们的游戏.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution148_排序链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1135">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution695_岛屿的最大面积.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution160_相交链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution236_二叉树的最近公共祖先.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/并查集.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -106,42 +141,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java刷题模板/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution69_x的平方根.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution152_乘积最大子数组.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -175,13 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest138/高度检察权.java" />
-        <option value="$PROJECT_DIR$/src/LeetCodeRace/Contest138/高度检察器.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution114_二叉树展开为链表.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution429_N叉树的层次遍历.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution240_搜索二维矩阵2.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution34_在排序数组中查找元素的第一个和最后一个位置.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution124_二叉树中的最大路径和.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution54_螺旋矩阵.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution171_Excel表列序号.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution287_寻找重复数.java" />
@@ -221,17 +213,24 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Solution152_乘积最大子数组.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Solution3_无重复字符的最长子串.java" />
         <option value="$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/排序.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java" />
         <option value="$PROJECT_DIR$/src/校招笔试2020/tplink/矩阵相交比相并面积.java" />
         <option value="$PROJECT_DIR$/src/校招笔试2020/tplink/整数的平方根.java" />
         <option value="$PROJECT_DIR$/src/校招笔试2020/tplink/找出最多的访问记录.java" />
         <option value="$PROJECT_DIR$/src/校招笔试2020/tplink/乱序数组中找和为x的两个元素.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java" />
+        <option value="$PROJECT_DIR$/src/LeetCodeRace/受标签影响的最大值.java" />
+        <option value="$PROJECT_DIR$/src/LeetCodeRace/复写0.java" />
+        <option value="$PROJECT_DIR$/src/LeetCodeRace/二进制矩阵中的最短路径.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution210_课程表2.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution695_岛屿的最大面积.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution160_相交链表.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Solution236_二叉树的最近公共祖先.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="width" value="1353" />
+    <option name="x" value="-13" />
+    <option name="width" value="1256" />
     <option name="height" value="1408" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,6 +240,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,32 +271,49 @@
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm_exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCodeRace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="校招笔试2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="校招笔试2020" type="462c0819:PsiDirectoryNode" />
-              <item name="tplink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,13 +348,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.乱序数组中找和为x的两个元素">
-    <configuration name="排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.排序" />
+  <component name="RunManager" selected="Application.Solution695_岛屿的最大面积">
+    <configuration name="二进制矩阵中的最短路径$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeRace.二进制矩阵中的最短路径$Solution" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="PATTERN" value="LeetCodeRace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="整数的平方根" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招笔试2020.tplink.整数的平方根" />
+    <configuration name="复写0$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeRace.复写0$Solution" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="校招笔试2020.tplink.*" />
+          <option name="PATTERN" value="LeetCodeRace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,207 +388,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution62_不同路径$Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution62_不同路径$Solution1" />
+    <configuration name="Solution695_岛屿的最大面积" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Solution695_岛屿的最大面积" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="并查集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.并查集" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="不用加减乘除做加法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.不用加减乘除做加法" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="删除重复字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.删除重复字符" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.第一个只出现一次的字符" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="字符串排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招真题_2018.唯品会_2018.字符串排列" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="校招真题_2018.唯品会_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="华华送奕奕小礼物" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客竞赛OJ.牛客练习赛_46.华华送奕奕小礼物" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客竞赛OJ.牛客练习赛_46.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="删除链表中的重复节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.删除链表中的重复节点" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="矩阵中的路径" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.矩阵中的路径" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="二叉搜索树与双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.二叉搜索树与双向链表" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="变态跳台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.变态跳台阶" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.水题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="华为机试.进制转换" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="华为机试.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="校招真题_2018.其他.最长递增子序列" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="校招真题_2018.其他.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="对称的二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指offer.对称的二叉树" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -598,6 +420,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCodeRace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="整数的平方根" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招笔试2020.tplink.整数的平方根" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招笔试2020.tplink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -696,6 +531,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="删除链表中的重复节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.删除链表中的重复节点" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="两个子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="校招真题_2018.京东_2018.两个子串" />
       <module name="Test1" />
@@ -728,6 +576,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="并查集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.并查集" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -813,6 +674,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="矩阵中的路径" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.矩阵中的路径" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="构建乘积数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="剑指offer.构建乘积数组" />
       <module name="Test1" />
@@ -839,6 +713,162 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="不用加减乘除做加法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.不用加减乘除做加法" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="删除重复字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招真题_2018.爱奇艺_2018.删除重复字符" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招真题_2018.爱奇艺_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第一个只出现一次的字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.第一个只出现一次的字符" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="字符串排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招真题_2018.唯品会_2018.字符串排列" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招真题_2018.唯品会_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="华华送奕奕小礼物" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客竞赛OJ.牛客练习赛_46.华华送奕奕小礼物" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="牛客竞赛OJ.牛客练习赛_46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉搜索树与双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.二叉搜索树与双向链表" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="变态跳台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.水题.变态跳台阶" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.水题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为机试.进制转换" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="华为机试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="校招真题_2018.其他.最长递增子序列" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="校招真题_2018.其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="对称的二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指offer.对称的二叉树" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="组合算法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java刷题模板.面试笔试模板.组合算法" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java刷题模板.面试笔试模板.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="乱序数组中找和为x的两个元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="校招笔试2020.tplink.乱序数组中找和为x的两个元素" />
       <module name="Test1" />
@@ -854,11 +884,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution695_岛屿的最大面积" />
+        <item itemvalue="Application.二进制矩阵中的最短路径$Solution" />
+        <item itemvalue="Application.复写0$Solution" />
         <item itemvalue="Application.乱序数组中找和为x的两个元素" />
-        <item itemvalue="Application.整数的平方根" />
         <item itemvalue="Application.矩阵相交比相并面积" />
-        <item itemvalue="Application.Solution62_不同路径$Solution1" />
-        <item itemvalue="Application.排序" />
       </list>
     </recent_temporary>
   </component>
@@ -928,7 +958,9 @@
       <workItem from="1560159386944" duration="245000" />
       <workItem from="1560163103063" duration="21578000" />
       <workItem from="1560323770496" duration="10836000" />
-      <workItem from="1560557775642" duration="9381000" />
+      <workItem from="1560557775642" duration="19917000" />
+      <workItem from="1560740091547" duration="726000" />
+      <workItem from="1560754242377" duration="4660000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交算法练习习题">
       <created>1551257160991</created>
@@ -1217,11 +1249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560391280449</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="日常刷题">
+      <created>1560588679906</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560588679906</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1072437000" />
+    <option name="totallyTimeSpent" value="1088359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1233,9 +1272,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="0" width="1353" height="1408" extended-state="0" />
+    <frame x="-13" y="0" width="1256" height="1408" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943376" visible="true" weight="0.33101314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943376" visible="true" weight="0.28846154" />
       <window_info id="Structure" order="1" sideWeight="0.50056624" side_tool="true" weight="0.30588236" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1255,7 +1295,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49926472" weight="0.32914376" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5977941" side_tool="true" weight="0.30714846" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4867647" weight="0.32757267" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4867647" weight="0.32731554" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
       <window_info anchor="bottom" id="SonarQube" order="15" />
@@ -1370,12 +1410,6 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/Solution148_排序链表.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode/Solution107_二叉树的层次遍历2.java</url>
           <line>95</line>
           <properties />
@@ -1435,98 +1469,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution162_寻找峰值.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution395_至少有K个重复字符的最长子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution103_二叉树的锯齿形遍历.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指offer/正则表达式匹配.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/校招真题_2018/爱奇艺_2018/括号匹配深度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../microservices/jdk_sources/src/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5475">
-          <folding>
-            <element signature="e#0#25460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution42_接雨水.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/素数筛法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/全排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/最长递增子序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指offer/二叉树中和为某一值的路径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution124_二叉树中的最大路径和.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -1714,13 +1656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6525">
-          <caret line="261" column="5" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/Callable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1746,20 +1681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplinkl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplinkl.java" />
     <entry file="file://$PROJECT_DIR$/相关算法及相应的练习题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1799,13 +1721,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/找出最多的访问记录.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution62_不同路径.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="2400">
+          <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution210_课程表2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/拓扑排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/复写0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/受标签影响的最大值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCodeRace/二进制矩阵中的最短路径.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/矩阵相交比相并面积.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1816,10 +1784,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/矩阵相交比相并面积.java">
+    <entry file="jar://F:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="8825">
+          <caret line="395" column="48" selection-start-line="395" selection-start-column="48" selection-end-line="395" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6150">
+          <caret line="246" column="24" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指offer/孩子们的游戏.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/校招笔试2020/tplink/找出最多的访问记录.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution148_排序链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1135">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java刷题模板/面试笔试模板/并查集.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution695_岛屿的最大面积.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution160_相交链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Solution236_二叉树的最近公共祖先.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
