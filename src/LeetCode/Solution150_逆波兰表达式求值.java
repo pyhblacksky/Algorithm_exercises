@@ -54,26 +54,35 @@ public class Solution150_逆波兰表达式求值 {
 
             Stack<Integer> stack = new Stack<>();
 
-            for(int i = 0; i < tokens.length; i++){
-                String s = tokens[i];
-                if(s.equals("+")){
-                    int num1 = stack.pop();
-                    int num2 = stack.pop();
-                    stack.push(num2+num1);
-                } else if(s.equals("-")){
-                    int num1 = stack.pop();
-                    int num2 = stack.pop();
-                    stack.push(num2-num1);
-                } else if(s.equals("*")){
-                    int num1 = stack.pop();
-                    int num2 = stack.pop();
-                    stack.push(num2*num1);
-                } else if(s.equals("/")){
-                    int num1 = stack.pop();
-                    int num2 = stack.pop();
-                    stack.push(num2/num1);
-                } else{
-                    stack.push(Integer.valueOf(s));
+            for (String s : tokens) {
+                switch (s) {
+                    case "+": {
+                        int num1 = stack.pop();
+                        int num2 = stack.pop();
+                        stack.push(num2 + num1);
+                        break;
+                    }
+                    case "-": {
+                        int num1 = stack.pop();
+                        int num2 = stack.pop();
+                        stack.push(num2 - num1);
+                        break;
+                    }
+                    case "*": {
+                        int num1 = stack.pop();
+                        int num2 = stack.pop();
+                        stack.push(num2 * num1);
+                        break;
+                    }
+                    case "/": {
+                        int num1 = stack.pop();
+                        int num2 = stack.pop();
+                        stack.push(num2 / num1);
+                        break;
+                    }
+                    default:
+                        stack.push(Integer.valueOf(s));
+                        break;
                 }
             }
 
