@@ -12,6 +12,7 @@ import java.util.HashSet;
  */
 public class 删除链表中的重复节点 {
 
+    //有额外的空间，并且不是原地删除
     public static ListNode deleteDuplication(ListNode pHead) {
 
         if(pHead == null){
@@ -38,6 +39,33 @@ public class 删除链表中的重复节点 {
         }
         return res.next;
 
+    }
+
+    //递归解决
+    static class Solution{
+        public ListNode deleteDuplication(ListNode pHead) {
+            if(pHead == null){
+                return null;
+            }
+
+            if(pHead != null && pHead.next == null){
+                return pHead;
+            }
+
+            ListNode cur;
+
+            if(pHead.next.val == pHead.val){
+                cur = pHead.next.next;
+                while(cur != null && cur.val == pHead.val){
+                    cur = cur.next;
+                }
+                return deleteDuplication(cur);
+            } else{
+                cur = pHead.next;
+                pHead.next = deleteDuplication(cur);
+                return pHead;
+            }
+        }
     }
 
     public static class ListNode {

@@ -45,12 +45,7 @@ public class 数据流中的中位数 {
 
     //维护两个堆，一个大根堆一个小根堆
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-    PriorityQueue<Integer> maxHeap = new PriorityQueue<>(15, new Comparator<Integer>() {
-        @Override
-        public int compare(Integer o1, Integer o2) {
-            return o2 - o1;
-        }
-    });
+    PriorityQueue<Integer> maxHeap = new PriorityQueue<>((o1, o2) -> o2 - o1);
     int count = 0;
 
     public void Insert(Integer num) {

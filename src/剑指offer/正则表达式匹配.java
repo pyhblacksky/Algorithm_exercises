@@ -12,38 +12,49 @@ package 剑指offer;
  */
 public class 正则表达式匹配 {
 
-    public boolean match(char[] str, char[] pattern) {
-        if(str == null || pattern == null || str.length == 0 || pattern.length == 0){
-            return false;
-        }
-
-        return matchCore(str, 0, pattern, 0);
-    }
-
-    private static boolean matchCore(char[] str, int strIndex, char[] pattern, int patternIndex){
-        if(strIndex == str.length && patternIndex == pattern.length){
-            return true;
-        }
-        if (strIndex != str.length && patternIndex == pattern.length) {
-            return false;
-        }
-
-        if(patternIndex + 1 < pattern.length && pattern[patternIndex + 1] == '*'){
-            if((strIndex != str.length && str[strIndex] == pattern[patternIndex])
-                    || (strIndex != str.length && pattern[patternIndex] == '.')){
-                return matchCore(str, strIndex, pattern, patternIndex + 2) ||
-                        matchCore(str, strIndex + 1, pattern, patternIndex + 2) ||
-                        matchCore(str, strIndex + 1, pattern, patternIndex);
-            } else{
-                return matchCore(str, strIndex, pattern, patternIndex + 2);
+    static class Solution {
+        public boolean match(char[] str, char[] pattern) {
+            if(str == null || pattern == null){
+                return false;
             }
+
+            //考虑  str == ""   pattern == ""
+            if(str.length == 0 && pattern.length == 0){
+                return true;
+            }
+
+            return matchCore(str, 0, pattern, 0);
         }
 
-        if((strIndex != str.length && str[strIndex] == pattern[patternIndex])
-                || (strIndex != str.length && pattern[patternIndex] == '.')){
-            return matchCore(str, strIndex + 1, pattern, patternIndex + 1);
+        private static boolean matchCore(char[] str, int strIndex, char[] pattern, int patternIndex) {
+            if (strIndex == str.length && patternIndex == pattern.length) {
+                return true;
+            }
+            if (strIndex != str.length && patternIndex == pattern.length) {
+                return false;
+            }
+
+            if (patternIndex + 1 < pattern.length && pattern[patternIndex + 1] == '*') {
+                if ((strIndex != str.length && str[strIndex] == pattern[patternIndex])
+                        || (strIndex != str.length && pattern[patternIndex] == '.')) {
+                    return matchCore(str, strIndex, pattern, patternIndex + 2) ||
+                            matchCore(str, strIndex + 1, pattern, patternIndex + 2) ||
+                            matchCore(str, strIndex + 1, pattern, patternIndex);
+                } else {
+                    return matchCore(str, strIndex, pattern, patternIndex + 2);
+                }
+            }
+
+            if ((strIndex != str.length && str[strIndex] == pattern[patternIndex])
+                    || (strIndex != str.length && pattern[patternIndex] == '.')) {
+                return matchCore(str, strIndex + 1, pattern, patternIndex + 1);
+            }
+            return false;
         }
-        return false;
     }
 
+    public static void main(String[] args){
+        Solution solution = new Solution();
+        solution.match("".toCharArray(), "".toCharArray());
+    }
 }

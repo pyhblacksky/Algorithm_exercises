@@ -20,41 +20,43 @@ public class 把字符串转换为整数 {
             return 0;
         }
 
+        //正负号
         boolean positive = true;
         int index = 0;
-        //正负号
         for(int i = 0; i < str.length(); i++){
-            if(str.charAt(i) == '+' && i+1 < str.length() && str.charAt(i+1) != '+'){
+            if(str.charAt(i) == '+' && i+1 < str.length() && (str.charAt(i+1) > '0' && str.charAt(i+1) < '9')){
                 positive = true;
-                index = i+1;
+                index++;
                 break;
-            } else if(str.charAt(i) == '-' && i+1 < str.length() && str.charAt(i+1) != '-'){
+            } else if(str.charAt(i) == '-' && i+1 < str.length() && (str.charAt(i+1) > '0' && str.charAt(i+1) < '9')){
                 positive = false;
-                index = i+1;
+                index++;
                 break;
+            } else if(str.charAt(i) > '0' && str.charAt(i) < '9'){
+                break;
+            } else{
+                return 0;
             }
         }
 
-        int carry = 1;
+        long carry = 1;
         int res = 0;
         for(int i = str.length() - 1; i >= index; i--){
-            if(str.charAt(i) < '0' || str.charAt(i) > '9'){
+            char c = str.charAt(i);
+            if(c < '0' || c > '9'){
                 return 0;
-            } else{
-                //判断溢出
-                if(carry * (str.charAt(i) - '0') > Integer.MAX_VALUE){
+            } else {
+                //判断是否溢出
+                if(carry * (c-'0') > Integer.MAX_VALUE){
                     return 0;
                 } else{
-                    res += carry * (str.charAt(i) - '0');
-                    carry = carry*10;
+                    res += carry*(c-'0');
+                    carry *= 10;
                 }
             }
         }
-        if (positive){
-            return res;
-        } else {
-            return -res;
-        }
+
+        return positive ? res : -res;
     }
 
     public static void main(String[] args){
