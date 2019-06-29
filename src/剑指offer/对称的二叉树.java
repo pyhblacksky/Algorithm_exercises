@@ -12,7 +12,7 @@ public class 对称的二叉树 {
 
     static boolean isSymmetrical(TreeNode pRoot) {
         if(pRoot == null){
-            return false;
+            return true;
         }
 
         return help(pRoot.left, pRoot.right);

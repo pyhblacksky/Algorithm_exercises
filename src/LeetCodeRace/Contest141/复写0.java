@@ -1,4 +1,4 @@
-package LeetCodeRace;
+package LeetCodeRace.Contest141;
 
 /**
  * @Author: pyh

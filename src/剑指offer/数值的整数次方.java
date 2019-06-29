@@ -25,10 +25,10 @@ public class 数值的整数次方 {
             n = exponent;
         } else if(exponent < 0){
             if(base == 0){
-                throw new RuntimeException("分母不能为0");
+                throw new ArithmeticException("分母不能为0");
             }
             n = -exponent;
-        } else if(exponent == 0){
+        } else{
             return res;
         }
 
