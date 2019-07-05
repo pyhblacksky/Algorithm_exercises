@@ -79,4 +79,71 @@ public class Solution94_二叉树的中序遍历 {
         }
     }
 
+    //同样是迭代版本，简化写法,两个while
+    class Solution2{
+        List<Integer> list = new ArrayList<>();
+        public List<Integer> inorderTraversal(TreeNode root){
+            if(root == null)
+                return list;
+
+            Stack<TreeNode> stack = new Stack<>();
+            while(root != null || !stack.isEmpty()){
+                while(root != null){
+                    stack.push(root);
+                    root = root.left;
+                }
+                root = stack.pop();
+                list.add(root.val);
+                root = root.right;
+            }
+
+            return list;
+        }
+    }
+
+    //方法3 线索二叉树  莫里斯方法
+    /**
+     * Step 1: 将当前节点current初始化为根节点
+     *
+     * Step 2: While current不为空，
+     *
+     * 若current没有左子节点
+     *
+     *     a. 将current添加到输出
+     *
+     *     b. 进入右子树，亦即, current = current.right
+     *
+     * 否则
+     *
+     *     a. 在current的左子树中，令current成为最右侧节点的右子节点
+     *
+     *     b. 进入左子树，亦即，current = current.left
+     * */
+    class Solution3{
+        List<Integer> list = new ArrayList<>();
+        public List<Integer> inorderTraversal(TreeNode root) {
+            if(root == null)
+                return list;
+
+            TreeNode cur = root;
+            TreeNode pre;
+            while(cur != null){
+                if(cur.left == null){
+                    list.add(cur.val);
+                    cur = cur.right;
+                } else{
+                    pre = cur.left;
+                    while(pre.right != null)
+                        pre = pre.right;
+                    pre.right = cur;
+                    TreeNode tmp = cur;
+                    cur = cur.left;
+                    tmp.left = null;
+                }
+            }
+
+            return list;
+        }
+    }
+
 }
