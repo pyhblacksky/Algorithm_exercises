@@ -1,6 +1,8 @@
 package 零碎的算法题;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author: pyh
@@ -49,13 +51,40 @@ public class 字符串最长子串 {
 
             return maxlen;
         }
+
+        public int findStr(String str){
+            if(str == null || str.length() <= 1)
+                return str.length();
+
+            int start = 0;
+            int end = 0;
+            Map<Character, Integer> map = new HashMap<>();
+            int pre = 0;
+            int max = 0;
+            for(int i = 0; i < str.length(); i++){
+                char c = str.charAt(i);
+                if(map.containsKey(c)){
+                    pre = map.get(c) + 1;
+                } else{
+                    if(i - pre + 1 > max){
+                        max = i - pre + 1;
+                        start = pre;
+                        end = i;
+                    }
+                }
+                map.put(c, i);
+            }
+
+            System.out.println(str.substring(start, end+1));
+            return max;
+        }
     }
 
     public static void main(String[] args) {
         String str = "abcdeabcdefabcdefga";
 
         Solution solution = new Solution();
-        int n = solution.max_substring(str);
+        int n = solution.findStr(str);
         System.out.println(n);
     }
 
