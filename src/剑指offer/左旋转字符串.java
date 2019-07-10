@@ -32,6 +32,20 @@ public class 左旋转字符串 {
         return res.toString();
     }
 
+    public static String LeftRotateString1(String str, int n){
+        if(n == 0 || str == null || str.length() == 0)
+            return str;
+
+        n = n % str.length();
+        StringBuilder sb = new StringBuilder(str.substring(0, n));
+        sb.reverse();
+        StringBuilder st = new StringBuilder(str.substring(n));
+        st.reverse();
+        sb.append(st);
+        sb.reverse();
+        return sb.toString();
+    }
+
     public static void main(String[] args){
         String s = "";
         System.out.println(LeftRotateString(s, 3));

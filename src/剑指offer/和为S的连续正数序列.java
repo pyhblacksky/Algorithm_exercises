@@ -37,7 +37,7 @@ public class 和为S的连续正数序列 {
             } else if(temp > sum){
                 pL++;
             } else{
-                pM--;
+                pM++;
             }
         }
         return res;
