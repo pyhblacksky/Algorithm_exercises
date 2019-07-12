@@ -20,7 +20,7 @@ public class 单调栈 {
 
     static PrintStream out = System.out;
 
-    public static void main(String[] args){
+    public static void main1(String[] args){
         int[] arr = {3,4,5,1,2};//测试数据
         int n = arr.length;
 
@@ -88,4 +88,35 @@ public class 单调栈 {
         out.println();
     }
 
+    //给你一个数组 T = [73, 74, 75, 71, 69, 72, 76, 73]对于每一天，
+    // 你还要至少等多少天才能等到一个更暖和的气温；如果等不到那一天，填 0 。
+    static class Solution{
+        public int[] getAns(int[] arr){
+            if(arr == null || arr.length == 0)
+                return arr;
+
+            int[] ans = new int[arr.length];
+            Stack<Integer> stack = new Stack<>();//存放的是下标
+            int index = ans.length - 1;
+            for(int i = arr.length-1; i >= 0; i--){
+                while(!stack.isEmpty() && arr[stack.peek()] <= arr[i]){
+                    stack.pop();
+                }
+                ans[index--] = stack.isEmpty() ? 0 : stack.peek() - i;
+                stack.push(i);
+            }
+            return arr;
+        }
+    }
+
+
+    public static void main(String[] args){
+        int[] arr = {73, 74, 75, 71, 69, 72, 76, 73};
+        //答案  1, 1, 4, 2, 1, 1, 0, 0
+        Solution solution = new Solution();
+        solution.getAns(arr);
+        String str = "abcdef";
+        int a = str.indexOf("de");
+        System.out.println(a);
+    }
 }

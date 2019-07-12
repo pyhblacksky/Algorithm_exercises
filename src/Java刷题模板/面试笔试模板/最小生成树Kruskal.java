@@ -101,7 +101,7 @@ public class 最小生成树Kruskal {
             int to = edges.get(i).to;
             int w = edges.get(i).w;
             if(!uset.isSameSet(from, to)){
-                //两个顶带你不属于同一个集合
+                //两个顶点不属于同一个集合
                 res += w;
                 count++;
                 if(count == n - 1){
