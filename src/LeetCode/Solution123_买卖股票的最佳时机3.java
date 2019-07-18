@@ -75,6 +75,33 @@ public class Solution123_买卖股票的最佳时机3 {
         }
     }
 
+    //通用dp解法
+    class Solution1 {
+        public int maxProfit(int[] prices) {
+            if(prices == null || prices.length == 0)
+                return 0;
+
+            int len = prices.length;
+            int k = 2;
+            int[][][] dp = new int[len+1][k+1][2];
+            for(int i = 0; i <= len; i++){
+                dp[i][0][1] = Integer.MIN_VALUE;
+            }
+            for(int i = 0; i <= k; i++){
+                dp[0][i][1] = Integer.MIN_VALUE;
+            }
+
+            for(int i = 1; i <= len; i++){
+                for(int j = 1; j <= k; j++){
+                    dp[i][j][0] = Math.max(dp[i-1][j][0], dp[i-1][j][1] + prices[i-1]);
+                    dp[i][j][1] = Math.max(dp[i-1][j][1], dp[i-1][j-1][0] - prices[i-1]);
+                }
+            }
+
+            return dp[len][k][0];
+        }
+    }
+
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5};
         Solution solution = new Solution();
