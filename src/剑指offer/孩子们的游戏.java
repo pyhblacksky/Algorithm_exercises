@@ -60,4 +60,68 @@ public class 孩子们的游戏 {
 
         return (LastRemaining_Solution(n-1, m) + m) % n;
     }
+
+    //链表成环来做
+    static class Solution {
+        public int LastRemaining_Solution(int n, int m) {
+            if(n <= 0 || m <= 0)
+                return -1;
+
+            if(n == 1)
+                return n;
+
+            ListNode head = build(n);
+
+            int count = 0;
+            while(head.next != null){
+                count++;
+                if(m-1 == count) {
+                    count = 0;
+                    removeNode(head);
+                }
+                if(head.next == null)
+                    break;//只剩一个  跳出
+                head = head.next;
+            }
+
+            return head.val;
+        }
+
+        public void removeNode(ListNode head){
+            if(head == null || head.next == null)
+                return;
+
+            if(head.next.val == head.val){
+                head.next = null;
+                return;
+            }
+            head.next = head.next.next;
+        }
+
+        public ListNode build(int n){
+            ListNode head = new ListNode(0);
+            ListNode save = head;
+            for(int i = 1; i < n; i++){
+                head.next = new ListNode(i);
+                head = head.next;
+            }
+
+            head.next = save;//成为环状
+            return save;
+        }
+
+        class ListNode{
+            ListNode next;
+            int val;
+            ListNode(int val){
+                this.val = val;
+            }
+        }
+    }
+
+    public static void main(String[] args){
+        Solution solution = new Solution();
+        solution.LastRemaining_Solution(5,3);
+    }
+
 }
