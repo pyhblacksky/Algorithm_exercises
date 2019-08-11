@@ -42,7 +42,7 @@ public class Solution279_完全平方数 {
             dp[i] = Integer.MAX_VALUE;
             for(int j = powNum.length-1; j > 0; j--) {
                 if (i - powNum[j] >= 0) {
-                    dp[i] = Math.min(Math.min(dp[i - powNum[j]] + 1, dp[i - 1] + 1), dp[i]);
+                    dp[i] = Math.min(dp[i - powNum[j]] + 1, dp[i]);
                 }
             }
         }

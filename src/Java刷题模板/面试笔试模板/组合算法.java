@@ -1,5 +1,7 @@
 package Java刷题模板.面试笔试模板;
 
+import java.util.Arrays;
+
 /**
  * @Author: pyh
  * @Date: 2019/5/8 16:15
@@ -41,6 +43,17 @@ public class 组合算法 {
         }
         count(i+1,str+num[i]+",",num,n-1);  //选，注意n-1，未选数
         count(i+1,str,num,n);       //不选
+    }
+
+    public static void dfs(int[] input, int[] output, int index, int start) {
+        if (index == output.length)//产生一个组合序列
+            System.out.println(Arrays.toString(output));
+        else {
+            for (int j = start; j < input.length; j++) {
+                output[index] = input[j];//记录选取的元素
+                dfs(input, output, index + 1, j + 1);//选取下一个元素，可选下标区间为[j+1,input.length]
+            }
+        }
     }
 
 }
