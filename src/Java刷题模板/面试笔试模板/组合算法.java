@@ -14,12 +14,12 @@ import java.util.Arrays;
 public class 组合算法 {
 
     public static void main(String[] args) {
-        int[] num=new int[]{1,2,3,4,5};
+        int[] num=new int[]{1,2,3,4,5,6,7};
         String str="";
         //求3个数的组合个数
 //        count(0,str,num,3);
 //        求1 - n个数的组合个数
-        count1(0,str,num);
+        count1(4,str,num);
     }
 
     //i:当前位置，str:临时存储，num:要组合的数组

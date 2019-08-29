@@ -1,7 +1,5 @@
 package 设计模式;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 /**
  * @Author: pyh
  * @Date: 2019/3/6 17:26
@@ -48,7 +46,7 @@ class Singleton3{
 
 //4.双重校验-线程安全
 class Singleton4{
-    private static Singleton4 uniqueInstance;
+    private static volatile Singleton4 uniqueInstance;//如果不加，引起重排序后不安全
     public Singleton4(){}
 
     public static Singleton4 getUniqueInstance(){
